@@ -1,0 +1,54 @@
+{
+  "best_model": "KNN",
+  "test_accuracy": 1.0,
+  "test_f1_score": 1.0,
+  "test_precision": 1.0,
+  "test_recall": 1.0,
+  "total_score": 1.0,
+  "categories": [
+    "Peoplesoft Resume",
+    "React Developer",
+    "SQL Developer",
+    "workday"
+  ],
+  "num_features": 1000,
+  "training_samples": 55,
+  "test_samples": 24,
+  "vectorizer_type": "TF-IDF",
+  "vectorizer_params": {
+    "max_features": 1000,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "sublinear_tf": true,
+    "min_df": 2,
+    "max_df": 0.8
+  },
+  "all_models_performance": {
+    "KNN": {
+      "test_accuracy": 1.0,
+      "test_f1_score": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0
+    },
+    "SVM": {
+      "test_accuracy": 1.0,
+      "test_f1_score": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0
+    },
+    "Random Forest": {
+      "test_accuracy": 1.0,
+      "test_f1_score": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0
+    },
+    "Naive Bayes": {
+      "test_accuracy": 1.0,
+      "test_f1_score": 1.0,
+      "test_precision": 1.0,
+      "test_recall": 1.0
+    }
+  }
+}
